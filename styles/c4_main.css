@@ -11,7 +11,7 @@ header img {
 
 header h2 {
 	font-size: 170%;
-	color: #800000;
+	color: var(--global-color-1);
 	text-indent: 30px;
 }
 
@@ -22,10 +22,14 @@ header h3 {
 }
 
 .shadow {
-	text-shadow: 1px 1px 2px #800000;
+	text-shadow: 1px 1px 2px var(--global-color-1);
 }
 
 /* the styles for the main content */
+:root {
+	--global-color-1: #800000;
+}
+
 main {
 	clear: left;
 }
